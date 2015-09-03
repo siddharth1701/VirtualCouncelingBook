@@ -1,0 +1,274 @@
+
+.background{
+     
+    background: url("background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.4;
+ filter:alpha(opacity=40);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  
+}
+imag {
+    position: relative;
+
+
+}
+.col-xs-6 .jumbotron{
+width:1100px;
+margin-left: 0px;
+margin-right: 60px;
+height: 400px;
+}
+.row .col-xs-6 .image{ 
+    height: 500px;
+    width:1200px;
+}
+
+.img-thumbnail
+{
+    
+
+    /*width:800px;
+    
+    margin-top: 250px;*/
+    background-color: transparent;
+}
+
+
+.jumbotron
+{
+    height:120px;
+    width:500px;
+
+    margin-left: 350px;
+    border-radius: 8px;
+    margin-top: 10px;
+   
+}
+.btn3d {
+    position:relative;
+    border:0;
+    border-radius:3px;
+    margin:3px 7px 0 0;
+    transition:all .09s linear;
+    box-shadow:0 0 0 3px transparent inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 6px 6px 0 0 #ccc, 6px 6px 0 1px rgba(0,0,0,0.2), 6px 6px 3px 0px rgba(0,0,0,0.3);
+    outline:medium none;
+    -moz-outline-style:none;
+}
+.btn3d:active {
+    top:7px;
+}
+.btn3d:focus {
+    outline:medium none;
+    -moz-outline-style:none;
+}
+.btn3d.btn-primary {
+    background-color:white;
+}
+/*
+.name{
+    font-size: 30px;
+    font-style: italic;
+    font-family: Times New Roman, Times, serif;
+   
+    color:white;
+    margin-top: -400px;
+    margin-left: 10px;
+}
+.profile-image{
+    
+    margin-right: 300px;
+      border-radius: 10px;
+float: right;
+
+}
+.pea
+{
+     font-size: 30px;
+    font-style: italic;
+    font-family: Times New Roman, Times, serif;
+    
+    color:white;
+    
+    margin-left: 10px;
+}
+.rollno{
+     font-size: 30px;
+    font-family: italic;
+    font-family: Times New Roman, Times, serif;
+    
+    color:white;
+    /*margin-top: -35px;
+    margin-left: 10px;
+}
+*/
+.container{
+    margin-top: 40px;
+font-size: 20px;
+font-family: italic;
+display: inline!important;
+float: right;
+margin: 5px;
+}
+.container .form-control{
+   
+    margin-top: 10px;
+    display: inline!important;
+    margin: 10px;
+
+}
+.out{
+    margin-top: 10px;
+    margin-left: 1000px;
+    font-size: 30px;
+   position: fixed;
+    float: left;
+    clear: both;
+
+}
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    height: 400px;
+    margin-top: 70px;
+    padding: 40px 0px 20px 0px;
+   /* background-color: #f7f7f7;*/
+   background-color:white;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 13px;
+}
+/*.wall
+{
+    height: 100px;
+    width:800px;
+    margin-left: 100px;
+    margin-top: 10px;
+   margin-right: 5px;
+    padding: 40px 80px 20px 10px;
+   /* background-color: #f7f7f7;*/
+   background-color:white;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 13px;
+}
+*/
+
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+/*.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}*/
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+.message {
+color: #FF0000;
+font-weight: bold;
+text-align: center;
+width: 100%;
+}
+.menu
+{
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: white;
+    color: yellow;
+}
+
+.content
+{
+    margin-left: 500px;
+}
+
+.center{
+    margin-top: 100px;
+    clear: both;
+}
+
+.roll .form-group{
+   /* padding: 50px;
+    clear: both;
+    margin-left:200px;
+    
+    width: 500px; 
+   
+    height: 50px;
+    display: inline;
+    */
+    text-align: center;
+}
+
+.table-bordered{
+    border: 5px;
+    background-color: white;
+}
+
